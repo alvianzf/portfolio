@@ -16,13 +16,16 @@ export default class TopBar extends Component<Props, State> {
                 <span className="subtitle"> on Typescript</span>
             </div>
             <div className="navs">
-                <div className="nav-item">
+                <a className="nav-item" href="#basic-info">
+                <i className="fa-solid fa-user-secret"></i>
                     Basic Info
-                </div>
+                </a>
                 <div className="nav-item">
-                    Portfolios
+                <i className="fa-solid fa-code"></i>
+                    Technologies
                 </div>
-                <div className="nav-item">
+                <div className="nav-item hire-me">
+                <i className="fa-solid fa-thumbs-up"></i>
                     Hire Me!
                 </div>
             </div>

@@ -8,6 +8,7 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: justify;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -15,11 +16,13 @@
 }
 
 .topbar {
+  position: fixed;
   display: flex;
   align-items: center;
   height: 2em;
   justify-content: space-between;
-  width: 100vw;
+  width: 98%;
+  background-color: #282c34;
 }
 
 .topbar img {
@@ -55,8 +58,94 @@
 .nav-item {
   padding: 0.5em;
   cursor: pointer;
+  text-decoration: none;
+  color: #fff;
 }
 
 .nav-item:hover {
   background-color: #5a5a5a;
+  color: rgb(218, 218, 218);
+  margin-top: 0.3em;
+}
+
+.nav-item i {
+  padding: 0 0.5em 0 0;
+}
+
+.hire-me {
+  background-color: darkslateblue;
+  border-radius: 0 8% 0 8% ;
+}
+
+.hire-me:hover {
+  background-color: darkblue !important;
+}
+
+.basic-info {
+  display: flex;
+  padding: 0.5em;
+}
+
+.profile-container {
+  width: 30%;
+  padding: 3em 3em 0;
+  object-fit: cover;
+}
+
+.profile-container img:hover {
+  margin-top: 0.1em;
+  margin-bottom: -0.1em;
+}
+
+.download {
+  display: flex;
+  width: 100%;
+  padding: 0.5em;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: darkslateblue;
+  text-decoration: none;
+  color: #fff
+}
+
+.download:hover {
+  background-color: darkblue ;
+  margin-top: 0.1em;
+}
+
+.info-container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+}
+
+.info-content {
+  display: block;
+  width: 100%;
+}
+
+.info-hello {
+  color:rgb(153, 153, 153);
+}
+
+.experiences {
+  padding: 1em 0;
+  font-size: 0.75em;
+}
+
+.experience-company {
+  padding-top: 1em;
+  color: #a3a3a3;
+}
+
+.experience-title {
+  color: #81818199;
+}
+
+.experience-content {
+  font-size: 0.75em;
 }
