@@ -71,7 +71,7 @@ export default class BasicInfo extends Component<Props, State> {
                             </ul>
                         </div>
                     </div>
-                    <div>
+                    {/* <div>
                         <div className="experience-company">
                             2021, Mitra Kuadran Teknologi, Batam
                         </div>
@@ -92,7 +92,7 @@ export default class BasicInfo extends Component<Props, State> {
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                     <div>
                         <div className="experience-company">
                             2020, TalentTribe Asia, Singapore
