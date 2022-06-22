@@ -83,6 +83,7 @@
 
 .basic-info {
   display: flex;
+  margin-top: 1em;
   padding: 0.5em;
 }
 
