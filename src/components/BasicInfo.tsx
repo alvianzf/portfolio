@@ -106,6 +106,9 @@ export default class BasicInfo extends Component<Props, State> {
                                 Learnt firebase, algolia, and wordpress to create an employer-based feature on the first 2 weeks of the job.
                                 </li>
                                 <li>
+                                Redo the whole talent-facing UI to fit the new TalentTribe branding.
+                                </li>
+                                <li>
                                 Influence product feature decisions by giving inputs and feedbacks from the technology point of view.
                                 </li>
                             </ul>
